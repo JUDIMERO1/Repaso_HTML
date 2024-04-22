@@ -14,13 +14,28 @@ body {
     align-items: center;
     gap: 20px;
 }
+.header-main {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+   
+}
 
 .logo {
     height: 60px;
     width: 60px;
 }
 
+.imagen {
+    height: 120px;
+    width: 120px;
+}
+
 .titulo {
+    margin: 0;
+    font-size: 2.5em;
+}
+.titulo-noticia {
     margin: 0;
     font-size: 2.5em;
 }
@@ -51,6 +66,40 @@ body {
 .footer-derecha {
     grid-column: 3/5;
     min-height: 80px;
+}
+.noticias {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-column: 1 / -1;
+    min-height: 80px;
+    max-height: 80px;
+}
+.noticia {
+    
+    min-height: 80px;
+}
+.noticia2{
+    
+    min-height: 80px;
+}
+.noticia3{
+    
+    min-height: 80px;
+}
+.parrafo-n1 {
+    font-size: 12px;
+    width: 150px;
+    height: 10px;
+}
+.parrafo-n2 {
+    font-size: 12px;
+    width: 150px;
+    height: 10px;
+}
+.parrafo-n3 {
+    font-size: 12px;
+    width: 150px;
+    height: 10px;
 }
 
 .contacto-footer{
